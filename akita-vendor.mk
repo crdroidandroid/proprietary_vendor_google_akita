@@ -113,7 +113,7 @@ PRODUCT_PACKAGES += \
     com.google.android.camerax.extensions \
     google-ril \
     oemrilhook \
-    vendor.google.edgetpu_app_service@1.0-service \
+    vendor.google.edgetpu_app_service@1.0-service.xml \
     vendor.google.edgetpu_app_service@1.0-service
 
 PRODUCT_PACKAGES += \
@@ -1998,31 +1998,31 @@ PRODUCT_PACKAGES += \
     com.google.pixel.euicc.update \
     com.google.pixel.wifi.ext \
     com.google.android.camera.experimental2023 \
-    android.hardware.audio.sounddose-vendor-aidl \
-    android.hardware.authsecret-service.citadel \
-    android.hardware.camera.provider@2.7-service-google-apex \
-    android.hardware.confirmationui-service.trusty.vendor \
-    android.hardware.contexthub-service.generic \
-    android.hardware.identity.strongbox \
-    android.hardware.neuralnetworks@service-darwinn-aidl \
-    android.hardware.oemlock-service.citadel \
-    android.hardware.security.keymint-service.citadel \
-    android.hardware.weaver-service.citadel \
-    com.google.edgetpu.dba-service \
-    com.google.edgetpu.tachyon-service \
-    dmd \
-    fingerprint-goodix \
-    manifest_input.processor-service \
-    manifest_radioext \
-    manifest_wifi_ext_aidl \
-    pixel-gnss-default \
-    vendor.dolby.media.c2@1.0-service \
-    vendor.google.aam \
-    vendor.google.battery_mitigation-default \
-    vendor.google.edgetpu_vendor_service@1.0-service \
-    vendor.google.google_battery-default \
-    vendor.google.radio_ext-default \
-    vendor.google.wireless_charger-default \
+    android.hardware.audio.sounddose-vendor-aidl.xml \
+    android.hardware.authsecret-service.citadel.xml \
+    android.hardware.camera.provider@2.7-service-google-apex.xml \
+    android.hardware.confirmationui-service.trusty.vendor.xml \
+    android.hardware.contexthub-service.generic.xml \
+    android.hardware.identity.strongbox.xml \
+    android.hardware.neuralnetworks@service-darwinn-aidl.xml \
+    android.hardware.oemlock-service.citadel.xml \
+    android.hardware.security.keymint-service.citadel.xml \
+    android.hardware.weaver-service.citadel.xml \
+    com.google.edgetpu.dba-service.xml \
+    com.google.edgetpu.tachyon-service.xml \
+    dmd.xml \
+    fingerprint-goodix.xml \
+    manifest_input.processor-service.xml \
+    manifest_radioext.xml \
+    manifest_wifi_ext_aidl.xml \
+    pixel-gnss-default.xml \
+    vendor.dolby.media.c2@1.0-service.xml \
+    vendor.google.aam.xml \
+    vendor.google.battery_mitigation-default.xml \
+    vendor.google.edgetpu_vendor_service@1.0-service.xml \
+    vendor.google.google_battery-default.xml \
+    vendor.google.radio_ext-default.xml \
+    vendor.google.wireless_charger-default.xml \
     aocd \
     aocxd \
     bipchmgr \
